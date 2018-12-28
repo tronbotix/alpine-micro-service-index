@@ -1,0 +1,38 @@
+# show docker version
+docker --version
+
+# show docker disk usage
+docker system df
+
+# show docker system information
+docker system info
+
+# list all images
+docker images
+
+# list all images and digests
+docker images --digests
+
+# display image history
+docker image history IMAGENAME
+
+# display image source
+docker image inspect
+
+# list running container
+docker ps
+
+# list all container
+docker ps -a
+
+# stop running container
+docker stop container
+
+# kill running container
+docker kill container
+
+# run help
+docker run --help
+
+# base hello-world image run
+docker run hello-world

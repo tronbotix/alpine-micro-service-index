@@ -1,0 +1,20 @@
+## base bash image run once
+docker run bash
+
+# bash image run once and print message
+docker run bash echo hello-world
+
+# bash image run once and print root filesystem
+docker run bash ls
+
+# bash image run background once
+docker run -d bash
+
+# bash image run background and start top
+docker run -d bash top
+
+# bash image run and start ping
+docker run bash ping 127.0.0.1
+
+# bash image run login & start bash
+docker run -it bash
