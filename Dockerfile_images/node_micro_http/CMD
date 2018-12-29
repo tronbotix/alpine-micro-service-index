@@ -1,0 +1,9 @@
+# shell
+docker build .
+
+# start http server background
+# port mapping / forwarding
+docker run -d -p 8080:8080 IMAGE_ID
+
+# Browser
+http://localhost:8080
