@@ -1,0 +1,14 @@
+# shell
+docker build .
+
+# python image run once and print message
+docker run IMAGE_BUILD/ID
+
+# python image run start python cli
+docker run -it IMAGE_BUILD/ID python
+
+#python cli print message
+print('hello python')
+
+# EXIT
+CTRL+D

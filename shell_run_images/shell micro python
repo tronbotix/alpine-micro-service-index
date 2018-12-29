@@ -1,0 +1,2 @@
+# python image run python cli
+docker run -it python
