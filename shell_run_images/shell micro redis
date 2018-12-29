@@ -9,6 +9,9 @@ docker ps
 # redis image exec hello redis
 docker exec CONTAINER_ID echo hallo redis
 
+# redis image exec sh shell
+docker exec -it CONTAINER_ID sh
+
 # redis image exec redis-cli
 docker exec -it CONTAINER_ID redis-cli
 

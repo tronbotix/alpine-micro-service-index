@@ -1,0 +1,11 @@
+## base busybox image run once
+docker run busybox
+
+# base busybox image run once prit message
+docker run -it busybox echo busybox
+
+# base busybox image run sh
+docker run -it busybox sh
+
+# base busybox image run bash
+docker run -it busybox bash
