@@ -1,0 +1,18 @@
+## base redis image run background
+docker run redis
+
+# list running container get container_id
+docker ps
+
+## second shell
+
+# redis image exec hello redis
+docker exec CONTAINER_ID echo hallo redis
+
+# redis image exec redis-cli
+docker exec -it CONTAINER_ID redis-cli
+
+# redis-cli
+# 127.0.0.1:6379> 
+set myvalue 10
+get myvalue 10
