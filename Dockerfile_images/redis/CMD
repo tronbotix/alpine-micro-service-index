@@ -1,0 +1,12 @@
+# shell
+docker build .
+
+docker run -p 8080:8080 IMAGE_ID
+
+# Browser
+http://0.0.0.0:8080
+
+# port mapping / forwarding
+docker run -p 2000:8080 IMAGE_ID
+
+http://0.0.0.0:2000
