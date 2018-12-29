@@ -4,9 +4,9 @@ services:
  build-service:
   build: ./dockerfile
  website:
-  image: apache
+  image: nginx
   volumes:
-    - ./website:/var/www/html
+    - ./website:/usr/share/nginx/html
   ports:
     - 2000:80
   depends_on:
