@@ -1,0 +1,2 @@
+FROM httpd
+CMD ["httpd"]

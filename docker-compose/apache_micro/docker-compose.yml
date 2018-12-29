@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+ build-service:
+  build: ./dockerfile
+ website:
+  image: php:apache
+  volumes:
+    - ./website:/var/www/html
+  ports:
+    - 2000:80
+  depends_on:
+    - build-service

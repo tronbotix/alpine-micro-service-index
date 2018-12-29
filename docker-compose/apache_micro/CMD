@@ -1,0 +1,8 @@
+# shell
+docker-compose up
+
+# Browser
+http://localhost:2000
+
+http://0.0.0.0:2000
+
